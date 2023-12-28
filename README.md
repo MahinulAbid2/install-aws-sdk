@@ -90,7 +90,8 @@ const s3 = new S3({
 - what changed is
 - I only require S3 instead of full AWS from aws-sdk
 - In version 2 = I need AWS.config.update() to put initial credential
-- I can put credential using just S3 like above.
+- I can put credential using just S3 like above in version 3.
+- It improves the performence for just importing only what I need.
 */
 
 
